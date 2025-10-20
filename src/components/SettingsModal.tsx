@@ -158,7 +158,7 @@ export const SettingsModal = forwardRef<HTMLButtonElement, SettingsModalProps>(
               <div>
                 <h3 className="mb-1 text-lg font-medium">About</h3>
                 <p className="mb-4 text-sm text-muted-foreground">
-                  Information about gptme and this web interface
+                  Information about core and this web interface
                 </p>
               </div>
 
@@ -167,22 +167,22 @@ export const SettingsModal = forwardRef<HTMLButtonElement, SettingsModalProps>(
                   <h4 className="text-sm font-medium">Related Projects</h4>
                   <div className="flex flex-col space-y-2">
                     <a
-                      href="https://github.com/gptme/gptme"
+                      href="https://www.portalos.ru"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center text-sm text-muted-foreground transition-colors hover:text-foreground"
                     >
                       <ExternalLink className="mr-2 h-3 w-3" />
-                      gptme - AI agent framework
+                      AI agent framework
                     </a>
                     <a
-                      href="https://github.com/gptme/gptme-webui"
+                      href="https://www.portalos.ru"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center text-sm text-muted-foreground transition-colors hover:text-foreground"
                     >
                       <ExternalLink className="mr-2 h-3 w-3" />
-                      gptme-webui - Web interface
+                      Web interface
                     </a>
                   </div>
                 </div>
